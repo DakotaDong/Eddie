@@ -1,0 +1,55 @@
+.customOverlay {
+  background: rgba(36, 123, 160, 0.7);
+  }
+  
+.customModal {
+  font-family: Gilroy;
+  font-weight: bold;
+font-size: 32px;
+background: #4B5161;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 32px;
+    max-width: 1204px;
+    max-height: 792px;
+    width: 100%;
+    color: #ffffff;
+}
+
+/* examples/custom-animation.css */
+@keyframes customEnterAnimation {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes customLeaveAnimation {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+}
+
+.boxTitle {
+  margin-top: 20px;
+}
+.btnbox1 > img{
+  width: 80%;
+  margin-left: 110px;
+}
+.btntest {
+  border: none;
+  color: #ffffff;
+  position: absolute;
+  top: 145px;
+  left: 155px;
+  width: 158px;
+height: 118px;
+border-radius: 20px;
+z-index: 20;
+}
+
+

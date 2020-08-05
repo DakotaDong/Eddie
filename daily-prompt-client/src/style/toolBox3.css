@@ -1,0 +1,102 @@
+.customOverlay {
+    /* background: rgba(36, 123, 160, 0.7); */
+  }
+  
+.customModal3 {
+  background: #FCF5EB;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 32px;
+    max-width: 1204px;
+    max-height: 792px;
+    width: 100%;
+}
+
+.customModal32 {
+  background: #FCF5EB;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 32px;
+    width: 800px;
+    height: 680px;
+    max-width: 1204px;
+    max-height: 792px;
+    width: 100%;
+}
+
+/* examples/custom-animation.css */
+@keyframes customEnterAnimation {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes customLeaveAnimation {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+
+.btnbox3 > img{
+  width: 85%;
+  margin-top: -60px;
+  margin-left: 110px;
+}
+
+.btntest3 {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 90px;
+  left: 345px;
+  width: 170px;
+height: 125px;
+border-radius: 20px;
+z-index: 20;
+}
+
+.detail-head {
+  margin-top: 50px;
+  font-family: Gilroy-Bold;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+.detail-content2 {
+  margin-top: 180px;
+  margin-left: 630px;
+  font-family: Gilroy-Regular;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: -0.5px;
+}
+
+.detail2 > img{
+  width: 50%;
+  margin-top: -330px;
+  margin-left: 20px;
+}
+
+.to-cups {
+  position: absolute;
+ padding: 8px 22px;
+  margin-left: 630px;
+  top: 540px;
+  background: #215FFF;
+  box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 30px;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 32px;
+  align-items: center;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+}
+
+.to-cups:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}

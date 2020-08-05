@@ -1,0 +1,349 @@
+/* background */
+.bgScenario3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/2aaaaa/bkg.png");
+}
+
+/* distracted */
+.distract-q{
+    display: flex;
+    flex-direction: column;
+    padding: 24px 42px 10px 42px;
+    position: absolute;
+    left: 366px;
+    top: 162px;
+    background: #565757;
+    box-sizing: border-box;
+    border-radius: 32px 32px 32px 0px;
+  
+    font-family: Gilroy;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+.gary1 > img {
+    position: absolute;
+    left: 98px;
+    top: 138px;
+    display: inline-block;
+    width: 18%;
+    align-items: center;
+    justify-content: center;
+}
+
+.disContainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 390px;
+    top: 308px;
+  }
+  
+.DisRow {
+    margin: 10px 0;
+}
+  
+/* Style the counter cards */
+
+.DisItem {
+    border: none;
+    width: 212px;
+    height: 165px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 40px;
+    box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+}
+
+#DisItem1 {
+    background-image: url("../images/christy/1.png");
+}
+
+#DisItem2 {
+    background-image: url("../images/christy/2.png");
+}
+
+#DisItem3 {
+    background-image: url("../images/christy/3.png");
+}
+#DisItem4 {
+    background-image: url("../images/christy/4.png");
+}
+#DisItem5 {
+    background-image: url("../images/christy/Group 204.png");
+}
+#DisItem6 {
+    background-image: url("../images/christy/Group 205.png");
+}
+
+.DisItem:hover {
+    cursor: pointer;
+}
+
+/* .s3-active {
+    border: 8px solid #FFD16D;
+border-radius: 30px;
+width: 212px;
+    height: 165px;
+} */
+
+.s2-adjust-submit > img{
+    width: 100%;
+    margin-left: -35px;
+    margin-top: 60px;
+}
+
+/* talk */
+.talk-s3 {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 42px 10px 42px;
+    position: absolute;
+    left: 310px;
+    top: 254px;
+    background: #565757;
+    box-sizing: border-box;
+    border-radius: 32px 32px 32px 0px;
+  
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+.gary-talk > img {
+    position: absolute;
+    left: 98px;
+    top: 238px;
+    display: inline-block;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.answerMath {
+    display: flex;
+    flex-direction: row;
+    padding: 12px 32px;
+    border: 0;
+    position: relative;
+    height: 52px;
+    color: #2D2D2D;
+    background: #FFFFFF;
+    box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 30px;
+
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.5px;
+    color: #2D2D2D;
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    margin: 10px 0px;
+}
+
+.answerMath:hover {
+    color: #2D2D2D;
+    text-Decoration: none;
+}
+
+.answerBox {
+    margin: 150px 40px 0 40px;
+}
+
+.ajustTalk {
+    margin-left: 50px;
+    margin-top: -150px;
+}
+
+.adjustResult {
+    margin-top: -25px;
+}
+
+.questionDistract {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 42px;
+    position: absolute;
+    height: 80px;
+    left: 378px;
+    top: 208px;
+    background: #FFFFFF;
+    border: 4px solid #4CBBB4;
+    box-sizing: border-box;
+    border-radius: 32px 32px 32px 0px; 
+}
+
+.gary2 > img {
+    position: absolute;
+    left: 161px;
+    top: 120px;
+    display: inline-block;
+    width: 12%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* drawing canvas */
+.drawing {
+    position: absolute;
+    width: 1204px;
+    height: 600px;
+    left: 130px;
+    top: 150px;
+    background: #F4F4F4;
+    border-radius: 30px;
+}
+
+.tools {
+    margin-top: 620px;
+}
+
+.DrawGary > img {
+    position: absolute;
+    left: 31px;
+    top: 20px;
+    display: inline-block;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ajust-draw-s3 {
+    margin-left: -10px;
+}
+
+.aditionalCompnt {
+    display: flex;
+    justify-content: center;
+}
+
+.aditionalTool {
+    margin: 0 20px 0 20px;
+}
+
+.btnTool{
+    background: white;  
+    margin: 10px;
+}
+
+/* text input */
+.ajust-text-s3 {
+    margin-left: -50px;
+    margin-top: 10px;
+}
+
+.textArea {
+    position: absolute;
+    width: 1204px;
+    height: 600px;
+    left: 130px;
+    top: 150px;
+    background: #F4F4F4;
+    border-radius: 30px;
+}
+
+.adjust-submit {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+/* result */
+.ajust-btn-s3 {
+    margin-left: 90px;
+    margin-top: -100px;
+}
+
+.ajust-result-s3 {
+    margin-top: -50px;
+    margin-left: -10px;
+}
+
+/* end-1 */
+.gary-end > img {
+    position: absolute;
+    left: 98px;
+    top: 218px;
+    display: inline-block;
+    width: 21%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ajust-end1-s3 {
+    margin-left: 50px;
+}
+
+/* game */
+.gameArea {
+    position: absolute;
+    width: 1204px;
+    height: 500px;
+    left: 130px;
+    top: 200px;
+    background: #F4F4F4;
+    border-radius: 30px;
+}
+
+.gameGary > img {
+    position: absolute;
+    left: 131px;
+    top: 70px;
+    display: inline-block;
+    width: 13%;
+    align-items: center;
+    justify-content: center;
+}
+
+.adjust-game {
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 24px 42px;
+}
+
+.gameContent{
+    position: absolute;
+    left: 360px;
+    top: 50px;
+}
+
+/* goal to breath */
+.bgBreathGoal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg-breath > img {
+    margin-left: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.ajust-breath-goal {
+    background: #C0C6C8;
+    color: #2D2D2D;
+}
+
+/* goal to cups */
+.adjust-goal-cups > img {
+    margin-top: -180px;
+    width: 10%;
+}

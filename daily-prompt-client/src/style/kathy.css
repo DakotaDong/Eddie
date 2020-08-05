@@ -1,0 +1,22 @@
+.btn-light {
+    margin-top: 5px;
+}
+
+.chosen{
+    /* white */
+    padding: -10px;
+    background-color: rgb(236, 234, 234);
+    /* HMH blue */
+    border: 2px solid rgb(236, 234, 234);
+}
+
+.kathy img{
+    position: relative;
+    width: 50%;
+    height: auto;
+}
+
+.btn-tool {
+    text-align: center;
+    margin-top: 50px;
+}

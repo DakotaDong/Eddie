@@ -1,0 +1,426 @@
+/* background */
+.bgScenario2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/3aaaaa/bkg.png");
+}
+
+/* emoji-with-word' */
+.emoji-with-word-q {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 42px 10px 42px;
+  position: absolute;
+  left: 404px;
+  top: 128px;
+  background: #565757;
+  box-sizing: border-box;
+  border-radius: 32px 32px 32px 0px;
+
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+}
+
+.sandiego1 > img {
+  position: absolute;
+  left: 70px;
+  top: 117px;
+  display: inline-block;
+  width: 24%;
+  align-items: center;
+  justify-content: center;
+}
+
+.choose-emoji {
+  position: absolute;
+  left: 474px;
+  top: 297px;
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  color: #000000;
+}
+
+.emoji-word-container-2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 474px;
+  top: 335px;
+}
+
+.emoji-row-2 {
+  margin: 15px 0;
+}
+
+.emoji-word-row-2 {
+  margin: 10px 0;
+}
+
+/* Style the counter cards */
+.emoji-word-card-2 {
+  width: 212px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  margin-right: 80px;
+  margin-top: -15px;
+  padding: 18px auto;
+  background: #FFFFFF;
+  box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 30px;
+  font-size: 42px;
+}
+
+.emoji-word-card-2:hover {
+  background-color: #828EAA;
+}
+
+.s2-active-2  {
+  width: 212px;
+  height: 60px;
+  border: none;
+  background-color: #596074;
+}
+
+.choose-word {
+  position: absolute;
+  left: 474px;
+  top: 510px;
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  color: #000000;
+}
+
+.emoji-selected{
+  width: 94px;
+height: 52px;
+  background: #FFBB00;
+  border-radius: 30px;
+  border: 0;
+  z-index: 9;
+}
+
+.emoji-word-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 474px;
+  top: 538px;
+}
+
+.emoji-word-row {
+  margin: 10px 0;
+}
+
+/* Style the counter cards */
+.emoji-word-card {
+  width: 212px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  margin-right: 80px;
+  padding: 8px 10px;
+  background: #FFFFFF;
+  box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 30px;
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+}
+
+.s2-active {
+  width: 212px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  margin-right: 80px;
+  margin-top: -15px;
+  padding: 18px auto;
+  background-color: #596074;
+  box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 30px;
+  color: #FFFFFF;
+  z-index: 200px;
+}
+
+.s2-adjust-submit > img{
+  width: 100%;
+  margin-left: -35px;
+  margin-top: 60px;
+}
+
+/* end */
+.sandiego2 > img {
+  position: absolute;
+  left: 106px;
+  top: 200px;
+  top: 248px;
+  display: inline-block;
+  width: 35%;
+  align-items: center;
+  justify-content: center;
+}
+
+.end-s2-q {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 42px 8px 42px;
+  position: absolute;
+  left: 386px;
+  top: 283px;
+  background: #565757;
+  border-radius: 32px 32px 32px 0px;
+
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+.ajust-s2-end {
+  margin-top: -100px;
+}
+
+/* response1 */
+.sandiego-r1 > img {
+  position: absolute;
+  left: 179px;
+  top: 300px;
+  display: inline-block;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+}
+
+.response-emoji {
+  position: absolute;
+  width: 185px;
+  height: 52px;
+  left: 52px;
+  top: 79px;
+  background: #FFFFFF;
+  box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.35);
+  border-radius: 30px;
+  padding: 2px 68px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 57px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.response-word {
+  position: absolute;
+  width: 185px;
+  height: 52px;
+  left: 52px;
+  top: 159px;
+  background: #FFFFFF;
+  box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.35);
+  border-radius: 30px;
+  padding: 2px 48px;
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #2D2D2D;
+}
+
+.response-s2-q {
+  position: absolute;
+  width: 820px;
+  height: 284px;
+  left: 478px;
+  top: 164px;
+  background: #565757;
+  border-radius: 32px 32px 32px 0px;
+}
+
+.response-text {
+  position: absolute;
+  left: 267px;
+  top: 60px;
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+.answer-response-1{
+  margin-left: 545px;
+  margin-top: 102px;
+}
+
+/* response-2 */
+.response-s2-q-2 {
+  position: absolute;
+  width: 820px;
+  height: 254px;
+  left: 478px;
+  top: 164px;
+  background: #565757;
+  border-radius: 32px 32px 32px 0px;
+}
+
+.adjust-s2-r2 {
+  margin-top: -20px;
+}
+
+.response-text-2 {
+  position: absolute;
+  left: 267px;
+  top: 70px;
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+/* kathy */
+.kathyArea {
+  position: absolute;
+  width: 1089px;
+height: 483px;
+left: 203px;
+top: 279px;
+background: #FFFFFF;
+  border-radius: 30px;
+}
+
+.kathySandiego > img {
+  position: absolute;
+  left: 125px;
+top: 150px;
+  display: inline-block;
+  width: 8%;
+  align-items: center;
+  justify-content: center;
+}
+
+.adjust-img-kathy > img {
+  width: 27%;
+  margin-top: 200px;
+}
+
+.adjust-text-kathy {
+  margin-top: 60px;
+}
+
+.text-kathy {
+  position: absolute;
+  left: 274px;
+  top: 106px;
+background: #565757;
+padding: 24px 42px 8px 42px;
+border-radius: 32px 32px 32px 0px;
+font-family: Gilroy-Medium;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: -0.5px;
+color: #ffffff;
+}
+
+.text-kathy-2 {
+  position: absolute;
+  left: 40.01%;
+  top: 40.65%;
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  color: #000000;
+}
+
+.adujust-kathy-emoji {
+  position: absolute;
+  left: 40.01%;
+  top: 47.65%;
+}
+
+/* Style the counter cards */
+.emoji-word-card-kathy {
+  width: 180px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  margin-right: 50px;
+  margin-top: -10px;
+  padding: 18px auto;
+  background: #FFFFFF;
+  box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 30px;
+  font-size: 42px;
+}
+
+.emoji-word-card-kathy:hover {
+  background-color: #828EAA;
+}
+
+.s2-active-kathy  {
+  width: 180px;
+  height: 60px;
+  border: none;
+  background-color: #596074;
+}
+
+.text-kathy-3 {
+  position: absolute;
+  left: 40.01%;
+top: 592px;
+font-family: Gilroy-Medium;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: -0.5px;
+color: #000000;
+}
+
+.kathy-input {
+  position: absolute;
+width: 448px;
+height: 56px;
+left: 40.01%;
+top: 644px;
+border: 3px solid #828EAA;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+.adjust-submit-kathy {
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+/* end-3 */
+.adjust-s2-end3 {
+  margin-top: -50px;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
