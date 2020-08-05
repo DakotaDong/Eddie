@@ -1,0 +1,120 @@
+/* .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+  width: 100vw;
+} */
+
+/* .navbar {
+  display: flex;
+  box-shadow: 4px 4px 6px gray;
+  justify-content: space-between;
+} */
+
+.gameResult {
+  position: absolute;
+  top: 180px;
+  left: 370px;
+  width: 100px;
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.game {
+  display: flex;
+  height: 75vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  position: absolute;
+  width: 1100px;
+  height: 500px;
+  left: -100px;
+  top: 150px;
+}
+
+.image {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  height: 100px;
+  width: 120px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px black;
+  padding: 0px;
+  margin: 40px 20px;
+}
+
+.image-blank {
+  background: url("./Images/onepiece.png") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  height: 100px;
+  width: 120px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px black;
+  padding: 0px;
+  margin: 40px 20px;
+}
+
+.end-game {
+  position: absolute;
+  display: flex;
+  width: 1100px;
+  height: 500px;  
+  top: 160px;
+  left: -55px;
+  height: 400px;
+  width: 870px;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+  background-size: 1900px 500px;
+}
+
+.message-content {
+  margin-top: 10px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+  height: 300px;
+  border-radius: 20px;
+  background: #565757;
+  padding: 30px ;
+  box-shadow: 4px 6px 4px gray;
+  color: #ffffff;
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+  .image {
+    height: 100px;
+    width: 110px;
+    margin: 5px;
+  }
+  .message {
+    width: 400px;
+  }
+  .login {
+    width: 400px;
+  }
+}
